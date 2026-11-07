@@ -1,0 +1,22 @@
+@'
+# Original photographs — retain locally, do not add to Git
+dataset/originals/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Training artifacts and model weights
+*.pth
+*.pt
+*.onnx
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Path ".\.gitignore" -Encoding UTF8
