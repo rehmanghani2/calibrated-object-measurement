@@ -1,0 +1,7 @@
+The masks in dataset/labels/masks were generated AUTOMATICALLY by dataset/auto_label.py.
+They are pseudo-labels, NOT manually verified ground-truth annotations.
+Known limitations: dark shadows or dark objects near the casing can distort the outline;
+undistortion borders are detected heuristically; GrabCut edges are approximate.
+Images with status 'review' need inspection; 'failed' images have no mask.
+Disclose this in the project report and assess label quality before training/evaluation.
+Test-set images/labels must not be used for training, tuning or checkpoint selection.
