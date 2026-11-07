@@ -279,6 +279,33 @@ def main() -> None:
                 corners,
                 True,
             )
+
+            # Outline the detected inner-corner grid.
+            grid = corners.reshape(
+                pattern_size[1],
+                pattern_size[0],
+                2,
+            )
+
+            boundary = np.array(
+                [
+                    grid[0, 0],
+                    grid[0, -1],
+                    grid[-1, -1],
+                    grid[-1, 0],
+                ],
+                dtype=np.int32,
+            ).reshape((-1, 1, 2))
+
+            cv2.polylines(
+                overlay,
+                [boundary],
+                isClosed=True,
+                color=(0, 255, 0),
+                thickness=5,
+                lineType=cv2.LINE_AA,
+            )
+
             detected_count += 1
             LOGGER.info("Detected: %s", image_path.name)
         else:
