@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "architecture": "Custom U-Net",
+  "input_width": 384,
+  "input_height": 288,
+  "batch_size": 2,
+  "maximum_epochs": 20,
+  "early_stopping_patience": 5,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "loss": "BCEWithLogitsLoss + Dice loss",
+  "device": "cpu",
+  "train_split": "dataset\\splits\\train_eligible.txt",
+  "validation_split": "dataset\\splits\\val_eligible.txt",
+  "test_split_loaded": false,
+  "training_samples": 64,
+  "validation_samples": 19
+}
