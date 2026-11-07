@@ -20,3 +20,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 '@ | Set-Content -Path ".\.gitignore" -Encoding UTF8
+
+
+# Calibration runtime logs and visual diagnostics
+logs/
+calibration/diagnostics/*.log
+calibration/diagnostics/overlays/
+calibration/diagnostics/checkerboard_contact_sheet.jpg

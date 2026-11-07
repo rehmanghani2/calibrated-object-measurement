@@ -1,0 +1,38 @@
+CAMERA CALIBRATION DIAGNOSTICS
+========================================
+
+IMAGE DETECTION
+Images found: 27
+Images detected: 26
+Images failed: 1
+Detection rate: 96.30%
+
+REPROJECTION ERROR
+OpenCV RMS: 4.388320 px
+Overall RMS: 4.388319 px
+Mean per-image RMS: 4.219738 px
+Median per-image RMS: 4.190973 px
+Minimum per-image RMS: 2.258900 px
+Maximum per-image RMS: 6.881673 px
+
+ASSESSMENT CHECKS
+minimum_20_detected_images_met: PASS
+all_detected_images_have_error_records: PASS
+camera_parameters_valid: PASS
+
+HIGHEST PER-IMAGE ERRORS
+cardboard_025.jpg: 6.881673 px
+cardboard_023.jpg: 6.213546 px
+cardboard_008.jpg: 6.097598 px
+cardboard_007.jpg: 6.039183 px
+cardboard_001.jpg: 5.037174 px
+cardboard_005.jpg: 4.984124 px
+cardboard_004.jpg: 4.922830 px
+cardboard_006.jpg: 4.915963 px
+cardboard_017.jpg: 4.781435 px
+cardboard_009.jpg: 4.766255 px
+
+FAILED DETECTION IMAGES
+cardboard_024.jpg
+
+PRELIMINARY - review image-level errors and calibration image quality before using these parameters.

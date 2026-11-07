@@ -1,0 +1,77 @@
+{
+    "calibration_images_found": 27,
+    "calibration_images_detected": 26,
+    "calibration_images_failed": 1,
+    "detected_image_names": [
+        "cardboard_001.jpg",
+        "cardboard_002.jpg",
+        "cardboard_003.jpg",
+        "cardboard_004.jpg",
+        "cardboard_005.jpg",
+        "cardboard_006.jpg",
+        "cardboard_007.jpg",
+        "cardboard_008.jpg",
+        "cardboard_009.jpg",
+        "cardboard_010.jpg",
+        "cardboard_011.jpg",
+        "cardboard_012.jpg",
+        "cardboard_013.jpg",
+        "cardboard_014.jpg",
+        "cardboard_015.jpg",
+        "cardboard_016.jpg",
+        "cardboard_017.jpg",
+        "cardboard_018.jpg",
+        "cardboard_019.jpg",
+        "cardboard_020.jpg",
+        "cardboard_021.jpg",
+        "cardboard_022.jpg",
+        "cardboard_023.jpg",
+        "cardboard_025.jpg",
+        "cardboard_026.jpg",
+        "cardboard_027.jpg"
+    ],
+    "failed_image_names": [
+        "cardboard_024.jpg"
+    ],
+    "normalized_image_width_px": 4128,
+    "normalized_image_height_px": 3096,
+    "checkerboard_inner_corner_patterns": [
+        [
+            7,
+            9
+        ],
+        [
+            9,
+            7
+        ]
+    ],
+    "checkerboard_square_size_mm": 25.0,
+    "opencv_rms_reprojection_error_px": 4.388319547976449,
+    "overall_reprojection_error_px": 4.388319223477035,
+    "camera_matrix": [
+        [
+            3365.150168853444,
+            0.0,
+            2054.376838432599
+        ],
+        [
+            0.0,
+            3364.5957515973273,
+            1539.3950846964829
+        ],
+        [
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "distortion_coefficients": [
+        [
+            0.48827535113739695,
+            -3.101532582203772,
+            -0.002119653970645952,
+            -0.0012556684685599753,
+            5.454011641143194
+        ]
+    ]
+}

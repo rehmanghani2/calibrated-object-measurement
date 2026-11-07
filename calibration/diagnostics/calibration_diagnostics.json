@@ -1,0 +1,257 @@
+{
+    "calibration_summary": {
+        "images_found": 27,
+        "images_detected": 26,
+        "images_failed": 1,
+        "detection_rate_percent": 96.29629629629629,
+        "failed_image_names": [
+            "cardboard_024.jpg"
+        ],
+        "image_width_px": 4128,
+        "image_height_px": 3096,
+        "opencv_rms_reprojection_error_px": 4.388319547976449,
+        "overall_reprojection_error_px": 4.388319223477035
+    },
+    "reprojection_statistics": {
+        "image_count": 26,
+        "mean_error_px": 4.219737529754639,
+        "median_error_px": 4.190972805023193,
+        "minimum_error_px": 2.2589001655578613,
+        "maximum_error_px": 6.881673336029053,
+        "per_image_errors": [
+            {
+                "image": "cardboard_001.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 5.037173748016357
+            },
+            {
+                "image": "cardboard_002.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.31771183013916
+            },
+            {
+                "image": "cardboard_003.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.142790794372559
+            },
+            {
+                "image": "cardboard_004.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.922830104827881
+            },
+            {
+                "image": "cardboard_005.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.984123706817627
+            },
+            {
+                "image": "cardboard_006.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.915963172912598
+            },
+            {
+                "image": "cardboard_007.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.039182662963867
+            },
+            {
+                "image": "cardboard_008.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.097597599029541
+            },
+            {
+                "image": "cardboard_009.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.7662553787231445
+            },
+            {
+                "image": "cardboard_010.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 2.508951187133789
+            },
+            {
+                "image": "cardboard_011.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 2.8754799365997314
+            },
+            {
+                "image": "cardboard_012.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.1318511962890625
+            },
+            {
+                "image": "cardboard_013.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 3.812657117843628
+            },
+            {
+                "image": "cardboard_014.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 3.0360538959503174
+            },
+            {
+                "image": "cardboard_015.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 3.082145929336548
+            },
+            {
+                "image": "cardboard_016.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 3.5135529041290283
+            },
+            {
+                "image": "cardboard_017.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.781435489654541
+            },
+            {
+                "image": "cardboard_018.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.651290416717529
+            },
+            {
+                "image": "cardboard_019.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.239154815673828
+            },
+            {
+                "image": "cardboard_020.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 2.9551875591278076
+            },
+            {
+                "image": "cardboard_021.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 3.2669036388397217
+            },
+            {
+                "image": "cardboard_022.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 3.1662023067474365
+            },
+            {
+                "image": "cardboard_023.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.213546276092529
+            },
+            {
+                "image": "cardboard_025.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.881673336029053
+            },
+            {
+                "image": "cardboard_026.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 3.114560604095459
+            },
+            {
+                "image": "cardboard_027.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 2.2589001655578613
+            }
+        ],
+        "highest_error_images": [
+            {
+                "image": "cardboard_025.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.881673336029053
+            },
+            {
+                "image": "cardboard_023.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.213546276092529
+            },
+            {
+                "image": "cardboard_008.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.097597599029541
+            },
+            {
+                "image": "cardboard_007.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 6.039182662963867
+            },
+            {
+                "image": "cardboard_001.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 5.037173748016357
+            },
+            {
+                "image": "cardboard_005.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.984123706817627
+            },
+            {
+                "image": "cardboard_004.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.922830104827881
+            },
+            {
+                "image": "cardboard_006.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.915963172912598
+            },
+            {
+                "image": "cardboard_017.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.781435489654541
+            },
+            {
+                "image": "cardboard_009.jpg",
+                "corner_count": 63,
+                "reprojection_error_px": 4.7662553787231445
+            }
+        ]
+    },
+    "camera_parameter_validation": {
+        "valid": true,
+        "camera_matrix_shape": [
+            3,
+            3
+        ],
+        "distortion_coefficients_shape": [
+            1,
+            5
+        ],
+        "image_width_px": 4128,
+        "image_height_px": 3096,
+        "matrix_finite": true,
+        "distortion_finite": true,
+        "focal_lengths_positive": true,
+        "camera_matrix": [
+            [
+                3365.150168853444,
+                0.0,
+                2054.376838432599
+            ],
+            [
+                0.0,
+                3364.5957515973273,
+                1539.3950846964829
+            ],
+            [
+                0.0,
+                0.0,
+                1.0
+            ]
+        ],
+        "distortion_coefficients": [
+            [
+                0.48827535113739695,
+                -3.101532582203772,
+                -0.002119653970645952,
+                -0.0012556684685599753,
+                5.454011641143194
+            ]
+        ]
+    },
+    "assessment_checks": {
+        "minimum_20_detected_images_met": true,
+        "all_detected_images_have_error_records": true,
+        "camera_parameters_valid": true
+    },
+    "interpretation": {
+        "reprojection_error": "Requires engineering review. No universal acceptance threshold is imposed by this diagnostic script.",
+        "calibration_status": "PRELIMINARY - review image-level errors and calibration image quality before using these parameters."
+    }
+}
