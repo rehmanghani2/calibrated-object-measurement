@@ -15,7 +15,7 @@ This project implements an image-to-millimetres workflow:
 7. Save measurement outputs, masks, overlays and evaluation results.
 
 **Object:** Black mobile phone casing.
-
+**DATASET:** https://drive.google.com/drive/folders/1t9F5WUnqj4ZbJFnPs9YCNTJ1tg8-m-d5
 **Reference object:** Playing card, measured dimensions 56.5 mm × 87.0 mm.
 
 **Casing ground truth:** 78.0 mm × 160.2 mm, measured using a ruler.
