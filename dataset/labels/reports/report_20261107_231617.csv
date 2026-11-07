@@ -1,0 +1,130 @@
+image,split,status,flags,error,area_pct,n_plausible,score,second_score,threshold,grabcut_applied,card_found,rect_aspect,solidity,rectangularity,bbox,width,height,touches_boundary,mask_file,overlay_file,seconds
+img_001.jpg,val,skipped_existing,existing_label_preserved,,,0,,,,False,,,,,,,,False,,,
+img_002.jpg,train,skipped_existing,existing_label_preserved,,,0,,,,False,,,,,,,,False,,,
+img_003.jpg,train,skipped_existing,existing_label_preserved,,,0,,,,False,,,,,,,,False,,,
+img_004.jpg,val,skipped_existing,existing_label_preserved,,,0,,,,False,,,,,,,,False,,,
+img_005.jpg,val,skipped_existing,existing_label_preserved,,,0,,,,False,,,,,,,,False,,,
+img_006.jpg,train,ok,,,3.778,1,0.8129,,90,True,True,2.036,0.9933,0.9706,"[1713, 856, 1062, 789]",4128,3096,False,labels\masks\img_006.png,labels\overlays\img_006.jpg,1.201
+img_007.jpg,train,ok,,,7.789,1,0.8068,,90,True,True,2.034,0.993,0.9625,"[1486, 1166, 1346, 1486]",4128,3096,False,labels\masks\img_007.png,labels\overlays\img_007.jpg,1.774
+img_008.jpg,train,ok,,,10.418,1,0.7642,,90,True,True,2.019,0.9911,0.9665,"[1171, 877, 1692, 892]",4128,3096,False,labels\masks\img_008.png,labels\overlays\img_008.jpg,1.683
+img_010.jpg,train,ok,,,7.075,2,0.7629,0.4586,90,True,True,2.039,0.9921,0.9667,"[1862, 970, 784, 1413]",4128,3096,False,labels\masks\img_010.png,labels\overlays\img_010.jpg,1.548
+img_011.jpg,val,ok,,,11.111,1,0.7389,,90,True,True,2.021,0.9831,0.9445,"[1155, 1377, 1785, 1501]",4128,3096,False,labels\masks\img_011.png,labels\overlays\img_011.jpg,1.545
+img_012.jpg,train,ok,,,11.031,1,0.6691,,90,True,True,2.126,0.9809,0.9477,"[1630, 959, 1656, 1749]",4128,3096,False,labels\masks\img_012.png,labels\overlays\img_012.jpg,1.529
+img_013.jpg,train,ok,,,13.114,1,0.703,,90,True,True,2.089,0.9862,0.9638,"[2368, 552, 1078, 1940]",4128,3096,False,labels\masks\img_013.png,labels\overlays\img_013.jpg,1.585
+img_015.jpg,train,ok,,,4.962,1,0.807,,66,True,True,2.005,0.9953,0.9616,"[1584, 861, 1161, 634]",4128,3096,False,labels\masks\img_015.png,labels\overlays\img_015.jpg,1.477
+img_016.jpg,train,ok,,,8.019,1,0.7957,,90,True,True,2.042,0.999,0.9788,"[1388, 794, 1465, 732]",4128,3096,False,labels\masks\img_016.png,labels\overlays\img_016.jpg,1.449
+img_017.jpg,val,ok,,,7.722,1,0.7974,,90,True,True,2.033,0.9973,0.9805,"[1413, 810, 1439, 732]",4128,3096,False,labels\masks\img_017.png,labels\overlays\img_017.jpg,1.406
+img_018.jpg,test,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_018.jpg,0.902
+img_019.jpg,val,ok,,,2.288,1,0.8176,,90,True,True,2.048,1.008,0.9914,"[1671, 1021, 763, 774]",4128,3096,False,labels\masks\img_019.png,labels\overlays\img_019.jpg,1.038
+img_020.jpg,train,ok,,,2.546,1,0.819,,90,True,True,2.046,1.004,0.9838,"[1780, 1052, 417, 825]",4128,3096,False,labels\masks\img_020.png,labels\overlays\img_020.jpg,1.003
+img_021.jpg,test,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_021.jpg,0.701
+img_022.jpg,train,ok,,,17.412,1,0.7217,,90,True,True,1.995,0.9931,0.9499,"[975, 428, 1088, 2167]",4128,3096,False,labels\masks\img_022.png,labels\overlays\img_022.jpg,1.401
+img_023.jpg,train,ok,,,10.874,1,0.7438,,90,True,True,1.987,0.9942,0.9473,"[830, 1083, 1718, 1635]",4128,3096,False,labels\masks\img_023.png,labels\overlays\img_023.jpg,1.281
+img_024.jpg,test,ok,,,9.804,1,0.6876,,90,True,True,2.01,0.9891,0.8943,"[1068, 975, 1553, 1527]",4128,3096,False,labels\masks\img_024.png,labels\overlays\img_024.jpg,1.277
+img_025.jpg,train,ok,,,7.158,1,0.6096,,90,True,True,1.938,0.9915,0.8278,"[1589, 887, 1465, 1181]",4128,3096,False,labels\masks\img_025.png,labels\overlays\img_025.jpg,1.306
+img_026.jpg,train,ok,,,8.972,1,0.4999,,90,True,True,2.453,0.9043,0.7654,"[1042, 634, 1924, 835]",4128,3096,False,labels\masks\img_026.png,labels\overlays\img_026.jpg,1.706
+img_027.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_027.jpg,1.006
+img_028.jpg,train,ok,,,10.945,1,0.6154,,90,True,True,1.392,0.9952,0.8635,"[908, 799, 1083, 1506]",4128,3096,False,labels\masks\img_028.png,labels\overlays\img_028.jpg,1.213
+img_029.jpg,train,ok,,,10.436,1,0.6565,,90,True,True,1.57,0.992,0.8874,"[479, 959, 1568, 1604]",4128,3096,False,labels\masks\img_029.png,labels\overlays\img_029.jpg,1.205
+img_030.jpg,test,ok,,,10.354,1,0.6263,,90,True,True,1.607,0.9944,0.8753,"[727, 1207, 1692, 1331]",4128,3096,False,labels\masks\img_030.png,labels\overlays\img_030.jpg,1.201
+img_031.jpg,train,ok,,,7.977,1,0.6992,,90,True,True,1.686,0.9971,0.9133,"[1124, 1016, 1388, 1419]",4128,3096,False,labels\masks\img_031.png,labels\overlays\img_031.jpg,1.149
+img_032.jpg,val,ok,,,7.429,1,0.7159,,90,True,True,1.751,0.9931,0.9006,"[990, 717, 897, 1357]",4128,3096,False,labels\masks\img_032.png,labels\overlays\img_032.jpg,1.154
+img_033.jpg,test,ok,,,7.701,1,0.6659,,90,True,True,1.589,0.9971,0.8755,"[1006, 1295, 846, 1341]",4128,3096,False,labels\masks\img_033.png,labels\overlays\img_033.jpg,1.297
+img_034.jpg,train,ok,,,14.742,1,0.5357,,90,True,True,1.806,0.967,0.7781,"[918, 423, 1161, 2110]",4128,3096,False,labels\masks\img_034.png,labels\overlays\img_034.jpg,1.537
+img_035.jpg,test,ok,,,23.685,1,0.7052,,90,True,True,1.817,0.9937,0.9029,"[562, 299, 1367, 2466]",4128,3096,False,labels\masks\img_035.png,labels\overlays\img_035.jpg,1.504
+img_036.jpg,train,ok,,,15.616,1,0.683,,90,True,True,1.802,0.9931,0.8682,"[350, 206, 1986, 1965]",4128,3096,False,labels\masks\img_036.png,labels\overlays\img_036.jpg,1.39
+img_037.jpg,train,ok,,,10.827,1,0.7268,,90,True,True,2.004,0.9952,0.9513,"[861, 1362, 1728, 897]",4128,3096,False,labels\masks\img_037.png,labels\overlays\img_037.jpg,1.281
+img_038.jpg,train,review,card_not_found,,2.174,1,0.7811,,90,True,False,2.029,1.0049,0.9819,"[2125, 1166, 381, 763]",4128,3096,False,labels\masks\img_038.png,labels\overlays\img_038.jpg,0.935
+img_039.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_039.jpg,0.764
+img_040.jpg,val,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_040.jpg,0.899
+img_041.jpg,train,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_041.jpg,0.989
+img_042.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_042.jpg,0.846
+img_043.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_043.jpg,0.821
+img_044.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_044.jpg,0.804
+img_045.jpg,train,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_045.jpg,0.776
+img_046.jpg,val,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_046.jpg,0.966
+img_047.jpg,train,ok,,,3.121,1,0.759,,90,True,True,2.074,0.996,0.904,"[1398, 1284, 990, 774]",4128,3096,False,labels\masks\img_047.png,labels\overlays\img_047.jpg,1.096
+img_048.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_048.jpg,1.219
+img_049.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_049.jpg,1.052
+img_050.jpg,train,review,card_not_found,,2.258,1,0.7876,,90,True,False,1.99,1.0004,0.9676,"[1821, 1130, 428, 784]",4128,3096,False,labels\masks\img_050.png,labels\overlays\img_050.jpg,0.944
+img_051.jpg,val,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_051.jpg,0.696
+img_052.jpg,train,ok,,,3.659,1,0.4529,,90,True,True,1.626,0.9754,0.7265,"[1764, 882, 1001, 835]",4128,3096,False,labels\masks\img_052.png,labels\overlays\img_052.jpg,1.072
+img_053.jpg,val,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_053.jpg,0.711
+img_054.jpg,train,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_054.jpg,0.689
+img_055.jpg,train,ok,,,2.205,1,0.8275,,90,True,True,2.058,1.006,0.987,"[2156, 1155, 387, 768]",4128,3096,False,labels\masks\img_055.png,labels\overlays\img_055.jpg,0.915
+img_056.jpg,train,ok,,,3.555,1,0.8049,,90,True,True,2.111,1.0114,0.9973,"[2249, 1068, 469, 985]",4128,3096,False,labels\masks\img_056.png,labels\overlays\img_056.jpg,0.918
+img_057.jpg,val,ok,,,3.423,1,0.8145,,90,True,True,2.009,1.0002,0.9737,"[1604, 1093, 959, 485]",4128,3096,False,labels\masks\img_057.png,labels\overlays\img_057.jpg,1.086
+img_058.jpg,train,ok,,,3.394,1,0.8232,,90,True,True,2.013,1.0047,0.9781,"[1599, 1124, 949, 474]",4128,3096,False,labels\masks\img_058.png,labels\overlays\img_058.jpg,1.133
+img_059.jpg,val,ok,,,3.787,1,0.7978,,90,True,True,1.984,0.9963,0.9665,"[1764, 820, 1052, 732]",4128,3096,False,labels\masks\img_059.png,labels\overlays\img_059.jpg,1.129
+img_060.jpg,train,ok,,,14.286,1,0.5888,,90,True,True,1.451,0.9958,0.8558,"[1243, 242, 1764, 1217]",4128,3096,False,labels\masks\img_060.png,labels\overlays\img_060.jpg,1.187
+img_061.jpg,val,ok,,,14.062,1,0.5672,,90,True,True,1.611,0.9865,0.8285,"[861, 92, 1836, 1806]",4128,3096,False,labels\masks\img_061.png,labels\overlays\img_061.jpg,1.318
+img_062.jpg,test,ok,,,19.688,1,0.7824,,90,True,True,2.104,0.9944,0.9607,"[717, 227, 1171, 2347]",4128,3096,False,labels\masks\img_062.png,labels\overlays\img_062.jpg,1.48
+img_063.jpg,train,ok,,,17.735,1,0.7791,,90,True,True,2.031,0.9921,0.958,"[908, 252, 1217, 2229]",4128,3096,False,labels\masks\img_063.png,labels\overlays\img_063.jpg,1.377
+img_064.jpg,train,ok,,,14.452,1,0.6814,,90,True,True,1.813,0.989,0.8664,"[670, 717, 1542, 2084]",4128,3096,False,labels\masks\img_064.png,labels\overlays\img_064.jpg,1.303
+img_065.jpg,test,review,ambiguous_multiple_candidates,,17.371,2,0.5352,0.4659,90,True,True,1.441,0.9841,0.8012,"[2084, 743, 1398, 2007]",4128,3096,False,labels\masks\img_065.png,labels\overlays\img_065.jpg,1.35
+img_066.jpg,val,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_066.jpg,0.939
+img_067.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_067.jpg,0.907
+img_068.jpg,test,ok,,,14.44,1,0.5814,,90,True,True,2.061,0.9738,0.8153,"[928, 118, 1780, 2141]",4128,3096,False,labels\masks\img_068.png,labels\overlays\img_068.jpg,1.937
+img_069.jpg,train,review,threshold_unstable,,23.462,1,0.6836,,90,True,True,1.995,0.991,0.9015,"[510, 288, 1733, 2631]",4128,3096,False,labels\masks\img_069.png,labels\overlays\img_069.jpg,1.974
+img_070.jpg,train,ok,,,23.987,1,0.6585,,90,True,True,1.8,0.9908,0.8425,"[258, 345, 2352, 2580]",4128,3096,False,labels\masks\img_070.png,labels\overlays\img_070.jpg,1.905
+img_071.jpg,val,ok,,,17.678,1,0.6451,,90,True,True,1.645,0.9912,0.858,"[1971, 428, 1424, 2141]",4128,3096,False,labels\masks\img_071.png,labels\overlays\img_071.jpg,2.026
+img_072.jpg,train,review,threshold_unstable,,19.893,1,0.6815,,90,True,True,1.794,0.9922,0.8757,"[2156, 495, 1331, 2280]",4128,3096,False,labels\masks\img_072.png,labels\overlays\img_072.jpg,2.374
+img_073.jpg,train,ok,,,19.192,1,0.7525,,90,True,True,2.032,0.9946,0.9477,"[1893, 583, 1181, 2291]",4128,3096,False,labels\masks\img_073.png,labels\overlays\img_073.jpg,2.376
+img_074.jpg,train,ok,,,5.299,1,0.8003,,90,True,True,2.058,0.9991,0.9757,"[1847, 1011, 650, 1217]",4128,3096,False,labels\masks\img_074.png,labels\overlays\img_074.jpg,1.505
+img_075.jpg,val,ok,,,5.129,1,0.8068,,90,True,True,2.027,0.9954,0.9778,"[1078, 1615, 1181, 619]",4128,3096,False,labels\masks\img_075.png,labels\overlays\img_075.jpg,1.873
+img_076.jpg,train,ok,,,9.38,1,0.7928,,90,True,True,1.986,0.9884,0.9604,"[1124, 1310, 1635, 1434]",4128,3096,False,labels\masks\img_076.png,labels\overlays\img_076.jpg,1.572
+img_077.jpg,val,ok,,,6.859,1,0.8291,,66,True,True,2.01,0.9946,0.9671,"[908, 1320, 1393, 1212]",4128,3096,False,labels\masks\img_077.png,labels\overlays\img_077.jpg,1.314
+img_078.jpg,train,review,threshold_unstable,,6.121,1,0.8067,,90,True,True,2.016,1.0004,0.9793,"[1563, 882, 1274, 634]",4128,3096,False,labels\masks\img_078.png,labels\overlays\img_078.jpg,1.184
+img_079.jpg,val,ok,,,12.858,1,0.7099,,90,True,True,1.801,0.9961,0.8583,"[835, 340, 1723, 1867]",4128,3096,False,labels\masks\img_079.png,labels\overlays\img_079.jpg,1.395
+img_080.jpg,train,ok,,,10.542,1,0.7552,,90,True,True,1.907,0.9956,0.8526,"[1682, 381, 1491, 1775]",4128,3096,False,labels\masks\img_080.png,labels\overlays\img_080.jpg,2.335
+img_081.jpg,train,ok,,,12.45,1,0.6181,,90,True,True,1.324,0.993,0.8151,"[1434, 154, 1563, 1377]",4128,3096,False,labels\masks\img_081.png,labels\overlays\img_081.jpg,1.551
+img_082.jpg,train,ok,,,3.082,1,0.8235,,90,True,True,2.014,1.0045,0.98,"[1723, 990, 903, 459]",4128,3096,False,labels\masks\img_082.png,labels\overlays\img_082.jpg,1.406
+img_083.jpg,train,ok,,,3.161,1,0.8258,,90,True,True,2.02,1.0069,0.9842,"[1692, 1026, 913, 459]",4128,3096,False,labels\masks\img_083.png,labels\overlays\img_083.jpg,1.411
+img_084.jpg,train,ok,,,2.457,1,0.8155,,90,True,True,1.998,0.9964,0.9646,"[1496, 1480, 841, 681]",4128,3096,False,labels\masks\img_084.png,labels\overlays\img_084.jpg,1.248
+img_085.jpg,train,ok,,,2.532,1,0.8207,,90,True,True,2.032,0.9993,0.9722,"[1620, 1166, 774, 841]",4128,3096,False,labels\masks\img_085.png,labels\overlays\img_085.jpg,1.114
+img_086.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_086.jpg,1.028
+img_087.jpg,train,ok,,,2.067,1,0.7981,,90,True,True,2.007,0.9977,0.9676,"[1666, 1331, 774, 645]",4128,3096,False,labels\masks\img_087.png,labels\overlays\img_087.jpg,1.127
+img_088.jpg,val,ok,,,7.939,1,0.7288,,82,True,True,2.199,0.9966,0.834,"[753, 552, 1620, 1269]",4128,3096,False,labels\masks\img_088.png,labels\overlays\img_088.jpg,1.378
+img_089.jpg,test,ok,,,7.698,1,0.7929,,90,True,True,2.098,0.9985,0.9139,"[1088, 835, 1001, 1594]",4128,3096,False,labels\masks\img_089.png,labels\overlays\img_089.jpg,1.531
+img_090.jpg,train,ok,,,10.597,1,0.7291,,90,True,True,2.371,0.9947,0.8429,"[1904, 412, 995, 2033]",4128,3096,False,labels\masks\img_090.png,labels\overlays\img_090.jpg,1.471
+img_091.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_091.jpg,0.967
+img_092.jpg,test,ok,,,10.019,1,0.617,,90,True,True,2.736,0.9961,0.7345,"[387, 268, 2115, 1191]",4128,3096,False,labels\masks\img_092.png,labels\overlays\img_092.jpg,1.569
+img_093.jpg,val,ok,,,11.698,1,0.6653,,88,True,True,2.068,0.9859,0.7162,"[598, 397, 1382, 1769]",4128,3096,False,labels\masks\img_093.png,labels\overlays\img_093.jpg,1.457
+img_094.jpg,test,ok,,,12.805,1,0.6727,,90,True,True,2.429,0.9935,0.7863,"[2223, 242, 1238, 2291]",4128,3096,False,labels\masks\img_094.png,labels\overlays\img_094.jpg,2.098
+img_095.jpg,train,ok,,,13.541,1,0.7305,,90,True,True,1.884,0.9953,0.8265,"[614, 608, 1181, 1924]",4128,3096,False,labels\masks\img_095.png,labels\overlays\img_095.jpg,2.979
+img_096.jpg,train,ok,,,13.073,1,0.6637,,90,True,True,2.788,0.9944,0.7822,"[1888, 41, 1161, 2471]",4128,3096,False,labels\masks\img_096.png,labels\overlays\img_096.jpg,2.136
+img_097.jpg,train,ok,,,3.809,1,0.8224,,90,True,True,1.943,0.9965,0.9577,"[1656, 944, 1006, 552]",4128,3096,False,labels\masks\img_097.png,labels\overlays\img_097.jpg,1.287
+img_098.jpg,train,ok,,,3.441,1,0.806,,90,True,True,1.989,1.0044,0.9796,"[1857, 1052, 949, 479]",4128,3096,False,labels\masks\img_098.png,labels\overlays\img_098.jpg,1.282
+img_099.jpg,train,review,implausible_area,,1.979,1,0.8278,,90,True,True,2.026,1.0024,0.9757,"[1635, 1439, 758, 598]",4128,3096,False,labels\masks\img_099.png,labels\overlays\img_099.jpg,1.115
+img_100.jpg,train,ok,,,2.47,1,0.8322,,90,True,True,2.01,1.0039,0.9762,"[1671, 1393, 810, 412]",4128,3096,False,labels\masks\img_100.png,labels\overlays\img_100.jpg,1.135
+img_101.jpg,train,ok,,,2.278,1,0.7953,,90,True,True,2.002,0.9968,0.9653,"[1816, 1382, 820, 608]",4128,3096,False,labels\masks\img_101.png,labels\overlays\img_101.jpg,1.431
+img_102.jpg,train,ok,,,2.284,1,0.7824,,90,True,True,2.083,1.0,0.9694,"[2162, 1341, 701, 815]",4128,3096,False,labels\masks\img_102.png,labels\overlays\img_102.jpg,2.459
+img_103.jpg,train,ok,,,2.197,1,0.8069,,90,True,True,2.112,1.0005,0.9767,"[2311, 1176, 448, 799]",4128,3096,False,labels\masks\img_103.png,labels\overlays\img_103.jpg,1.002
+img_104.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_104.jpg,0.85
+img_105.jpg,train,ok,,,15.235,1,0.7253,,90,True,True,2.223,0.9957,0.901,"[1295, 1269, 2193, 1037]",4128,3096,False,labels\masks\img_105.png,labels\overlays\img_105.jpg,1.337
+img_106.jpg,train,failed,no_plausible_casing,,,0,,,90,False,True,,,,,4128,3096,False,,labels\overlays\img_106.jpg,0.922
+img_107.jpg,train,ok,,,13.261,1,0.7242,,90,True,True,2.057,0.9901,0.9187,"[1883, 227, 1589, 2043]",4128,3096,False,labels\masks\img_107.png,labels\overlays\img_107.jpg,1.436
+img_108.jpg,train,ok,,,2.733,1,0.8077,,71,True,True,2.06,0.9976,0.9421,"[2223, 985, 681, 918]",4128,3096,False,labels\masks\img_108.png,labels\overlays\img_108.jpg,1.043
+img_109.jpg,train,ok,,,11.014,1,0.7346,,69,True,True,2.023,0.9887,0.86,"[1862, 371, 1284, 1935]",4128,3096,False,labels\masks\img_109.png,labels\overlays\img_109.jpg,1.359
+img_110.jpg,train,ok,,,17.726,1,0.7144,,90,True,True,2.054,0.9902,0.8802,"[1898, 175, 1475, 2440]",4128,3096,False,labels\masks\img_110.png,labels\overlays\img_110.jpg,1.479
+img_111.jpg,train,ok,,,10.797,1,0.659,,90,True,True,2.266,0.9944,0.8014,"[1759, 304, 1026, 2058]",4128,3096,False,labels\masks\img_111.png,labels\overlays\img_111.jpg,1.254
+img_112.jpg,train,failed,no_plausible_casing,,,0,,,87,False,True,,,,,4128,3096,False,,labels\overlays\img_112.jpg,0.902
+img_113.jpg,val,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_113.jpg,0.866
+img_114.jpg,val,failed,card_not_found;no_plausible_casing,,,0,,,90,False,False,,,,,4128,3096,False,,labels\overlays\img_114.jpg,0.868
+img_115.jpg,train,ok,,,18.575,1,0.7149,,90,True,True,2.222,0.9911,0.9367,"[1346, 696, 1140, 2368]",4128,3096,False,labels\masks\img_115.png,labels\overlays\img_115.jpg,1.368
+img_116.jpg,val,ok,,,17.622,1,0.7126,,90,True,True,2.26,0.9932,0.9283,"[1429, 603, 1109, 2342]",4128,3096,False,labels\masks\img_116.png,labels\overlays\img_116.jpg,1.316
+img_117.jpg,val,ok,,,8.065,1,0.8146,,90,True,True,1.833,0.9926,0.9271,"[1480, 474, 1424, 830]",4128,3096,False,labels\masks\img_117.png,labels\overlays\img_117.jpg,1.117
+img_118.jpg,train,ok,,,2.3,1,0.7904,,90,True,True,2.006,1.0059,0.9758,"[1754, 939, 779, 397]",4128,3096,False,labels\masks\img_118.png,labels\overlays\img_118.jpg,1.025
+img_119.jpg,train,ok,,,2.49,1,0.8411,,90,True,True,2.006,1.0019,0.975,"[1790, 1181, 815, 407]",4128,3096,False,labels\masks\img_119.png,labels\overlays\img_119.jpg,1.058
+img_120.jpg,train,ok,,,5.481,1,0.8056,,90,True,True,2.072,0.999,0.8623,"[1563, 603, 1052, 1310]",4128,3096,False,labels\masks\img_120.png,labels\overlays\img_120.jpg,1.13
+img_121.jpg,train,ok,,,8.212,1,0.7468,,52,True,True,1.646,0.9953,0.8355,"[1135, 913, 1016, 1589]",4128,3096,False,labels\masks\img_121.png,labels\overlays\img_121.jpg,1.151
+img_122.jpg,train,failed,no_plausible_casing,,,0,,,76,False,True,,,,,4128,3096,False,,labels\overlays\img_122.jpg,1.108
+img_123.jpg,train,ok,,,37.966,1,0.4911,,81,True,True,1.426,0.8344,0.7523,"[1924, 36, 2136, 3034]",4128,3096,False,labels\masks\img_123.png,labels\overlays\img_123.jpg,2.408
+img_124.jpg,train,failed,no_plausible_casing,,,0,,,78,False,True,,,,,4128,3096,False,,labels\overlays\img_124.jpg,1.068
+img_125.jpg,train,failed,no_plausible_casing,,,0,,,78,False,True,,,,,4128,3096,False,,labels\overlays\img_125.jpg,1.135
+img_126.jpg,train,ok,,,3.757,1,0.861,,76,True,True,2.115,0.9867,0.9468,"[1723, 882, 1073, 758]",4128,3096,False,labels\masks\img_126.png,labels\overlays\img_126.jpg,1.11
+img_127.jpg,test,ok,,,8.806,1,0.8211,,90,True,True,1.766,0.993,0.9186,"[1532, 701, 1496, 866]",4128,3096,False,labels\masks\img_127.png,labels\overlays\img_127.jpg,1.185
+img_128.jpg,train,ok,,,6.712,1,0.6979,,90,True,True,1.754,0.9779,0.8675,"[1568, 706, 1331, 753]",4128,3096,False,labels\masks\img_128.png,labels\overlays\img_128.jpg,1.234
+img_129.jpg,train,review,fragmented_contour,,3.753,1,0.7295,,90,True,True,1.827,0.9838,0.884,"[1615, 1104, 1006, 552]",4128,3096,False,labels\masks\img_129.png,labels\overlays\img_129.jpg,1.063
+img_130.jpg,val,ok,,,2.963,1,0.7948,,90,True,True,1.897,0.9853,0.8918,"[1702, 1243, 903, 485]",4128,3096,False,labels\masks\img_130.png,labels\overlays\img_130.jpg,1.023
+img_131.jpg,train,ok,,,8.058,2,0.7112,0.5595,83,True,True,2.052,0.9798,0.7947,"[614, 588, 1635, 799]",4128,3096,False,labels\masks\img_131.png,labels\overlays\img_131.jpg,1.197

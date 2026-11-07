@@ -1,0 +1,6 @@
+image,split,status,flags,error,area_pct,n_plausible,score,second_score,threshold,grabcut_applied,card_found,rect_aspect,solidity,rectangularity,bbox,width,height,touches_boundary,mask_file,overlay_file,seconds
+img_001.jpg,val,ok,,,11.838,1,0.7835,,90,True,True,2.017,0.9934,0.9635,"[1320, 675, 1785, 913]",4128,3096,False,labels\masks\img_001.png,labels\overlays\img_001.jpg,1.494
+img_002.jpg,train,ok,,,17.286,1,0.7559,,90,True,True,1.986,0.9906,0.9569,"[1006, 412, 2146, 1083]",4128,3096,False,labels\masks\img_002.png,labels\overlays\img_002.jpg,1.533
+img_003.jpg,train,ok,,,8.129,1,0.7892,,90,True,True,1.993,1.0006,0.9707,"[1460, 753, 1465, 737]",4128,3096,False,labels\masks\img_003.png,labels\overlays\img_003.jpg,1.091
+img_004.jpg,val,ok,,,6.279,1,0.7379,,90,True,True,2.033,1.0017,0.9805,"[1589, 851, 1295, 639]",4128,3096,False,labels\masks\img_004.png,labels\overlays\img_004.jpg,1.034
+img_005.jpg,val,ok,,,3.356,1,0.8319,,90,True,True,2.045,1.0079,0.9942,"[1780, 1021, 944, 464]",4128,3096,False,labels\masks\img_005.png,labels\overlays\img_005.jpg,1.093

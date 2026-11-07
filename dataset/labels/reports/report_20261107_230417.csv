@@ -1,0 +1,6 @@
+image,split,status,flags,error,area_pct,n_plausible,score,second_score,threshold,grabcut_applied,card_found,rect_aspect,solidity,rectangularity,bbox,width,height,touches_boundary,mask_file,overlay_file,seconds
+img_001.jpg,val,failed,processing_error,AttributeError: 'NoneType' object has no attribute 'any',,0,,,,False,,,,,,4128,3096,False,,,0.571
+img_002.jpg,train,failed,processing_error,AttributeError: 'NoneType' object has no attribute 'any',,0,,,,False,,,,,,4128,3096,False,,,0.443
+img_003.jpg,train,failed,processing_error,AttributeError: 'NoneType' object has no attribute 'any',,0,,,,False,,,,,,4128,3096,False,,,0.382
+img_004.jpg,val,failed,processing_error,AttributeError: 'NoneType' object has no attribute 'any',,0,,,,False,,,,,,4128,3096,False,,,0.338
+img_005.jpg,val,failed,processing_error,AttributeError: 'NoneType' object has no attribute 'any',,0,,,,False,,,,,,4128,3096,False,,,0.33
