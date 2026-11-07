@@ -1,0 +1,23 @@
+{
+  "input_image": "F:\\Projects\\New folder (2)\\calibrated-object-measurement\\dataset\\originals\\img_094.jpg",
+  "width_mm": 58.44,
+  "height_mm": 145.85,
+  "segmentation_confidence": 0.9804,
+  "probability_threshold": 0.5,
+  "card_detected": true,
+  "card_reference_width_mm": 56.5,
+  "card_reference_height_mm": 87.0,
+  "card_observed_aspect_ratio": 1.4636,
+  "calibration_file": "F:\\Projects\\New folder (2)\\calibrated-object-measurement\\calibration\\camera_calibration.npz",
+  "checkpoint": "F:\\Projects\\New folder (2)\\calibrated-object-measurement\\models\\outputs\\best_unet.pt",
+  "checkpoint_epoch": 12,
+  "measurement_method": "Undistortion, U-Net segmentation, card-based perspective rectification, and minimum-area casing rectangle.",
+  "caveats": [
+    "Assumes casing and reference card lie in the same plane.",
+    "Card quadrilateral is estimated from its red pattern region.",
+    "Calibration reprojection error is relatively high; measurements require empirical validation.",
+    "Confidence is mean predicted foreground probability, not a calibrated probability of measurement correctness."
+  ],
+  "overlay": "F:\\Projects\\New folder (2)\\calibrated-object-measurement\\measurement\\results\\img_094_measurement.png",
+  "mask": "F:\\Projects\\New folder (2)\\calibrated-object-measurement\\measurement\\results\\img_094_mask.png"
+}

@@ -1,0 +1,17 @@
+COMMAND:
+"F:\Projects\New folder (2)\calibrated-object-measurement\.venv\Scripts\python.exe" "F:\Projects\New folder (2)\calibrated-object-measurement\inference\measure.py" --image "F:\Projects\New folder (2)\calibrated-object-measurement\dataset\originals\img_024.jpg"
+
+RETURN CODE:
+0
+
+STDOUT:
+
+MEASUREMENT RESULT
+Width: 84.31 mm
+Height: 174.58 mm
+Segmentation confidence: 0.9610
+Overlay: F:\Projects\New folder (2)\calibrated-object-measurement\measurement\results\img_024_measurement.png
+JSON: F:\Projects\New folder (2)\calibrated-object-measurement\measurement\results\img_024_measurement.json
+
+
+STDERR:

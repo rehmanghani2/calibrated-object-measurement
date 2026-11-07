@@ -1,0 +1,36 @@
+{
+  "evaluation_timestamp_utc": "2026-11-07T21:13:44.851932+00:00",
+  "evaluation_type": "Final held-out test measurement accuracy",
+  "test_images_requested": 10,
+  "successful_measurements": 9,
+  "failed_measurements": 1,
+  "ground_truth": {
+    "width_mm": 78.0,
+    "height_mm": 160.2,
+    "source": "User's ruler measurement of the physical casing"
+  },
+  "dataset_note": "These are repeated photographic instances of one physical casing, not independent physical objects.",
+  "width": {
+    "mae_mm": 15.3422,
+    "median_absolute_error_mm": 19.56,
+    "worst_absolute_error_mm": 26.73,
+    "worst_case_image": "img_030.jpg",
+    "mean_absolute_percentage_error": 19.6695,
+    "max_absolute_percentage_error": 34.2692
+  },
+  "height": {
+    "mae_mm": 10.1722,
+    "median_absolute_error_mm": 12.57,
+    "worst_absolute_error_mm": 18.4,
+    "worst_case_image": "img_127.jpg",
+    "mean_absolute_percentage_error": 6.3497,
+    "max_absolute_percentage_error": 11.4856
+  },
+  "failures": [
+    {
+      "image": "img_068.jpg",
+      "reason": "Inference returned exit code 1"
+    }
+  ],
+  "per_instance_csv": "measurement/accuracy/per_instance_results.csv"
+}

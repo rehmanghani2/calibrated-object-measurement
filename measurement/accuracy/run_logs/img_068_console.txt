@@ -1,0 +1,20 @@
+COMMAND:
+"F:\Projects\New folder (2)\calibrated-object-measurement\.venv\Scripts\python.exe" "F:\Projects\New folder (2)\calibrated-object-measurement\inference\measure.py" --image "F:\Projects\New folder (2)\calibrated-object-measurement\dataset\originals\img_068.jpg"
+
+RETURN CODE:
+1
+
+STDOUT:
+
+
+STDERR:
+Traceback (most recent call last):
+  File "F:\Projects\New folder (2)\calibrated-object-measurement\inference\measure.py", line 419, in <module>
+    main()
+  File "F:\Projects\New folder (2)\calibrated-object-measurement\inference\measure.py", line 351, in main
+    homography, card_corners, card_ratio = create_card_homography(
+  File "F:\Projects\New folder (2)\calibrated-object-measurement\inference\measure.py", line 181, in create_card_homography
+    corners, ratio = ordered_card_corners(card_mask)
+  File "F:\Projects\New folder (2)\calibrated-object-measurement\inference\measure.py", line 169, in ordered_card_corners
+    raise ValueError(
+ValueError: Card geometry is implausible: aspect ratio 1.962
