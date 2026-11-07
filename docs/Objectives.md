@@ -1,82 +1,117 @@
-# Project Objectives --- Calibrated Object Measurement
+# Objectives — Measure It
 
-**Project:** `calibrated-object-measurement`\
-**Status:** Draft objectives; targets are engineering targets, not
-measured results.
+## Measurement setup
 
-## MO-1 --- Measurement accuracy
+- **Camera:** Samsung Galaxy J5 (2016)
+- **Image resolution after orientation normalization:** 4128 × 3096 pixels
+- **Object:** Black mobile phone casing
+- **Reference:** Playing card, measured as 56.5 mm × 87.0 mm
+- **Casing ground truth:** 78.0 mm width × 160.2 mm height, measured with a ruler
+- **Compute:** Intel Core i5-8365U, 16 GB RAM, Intel UHD 620 integrated graphics; CPU inference
+- **Python:** 3.10.5
+- **OpenCV:** 4.9.0
+- **PyTorch:** 2.5.1+cpu
+- **Random seed:** 42
 
-On the untouched test set, compare automated casing width and height
-against physical calliper measurements. The proposed target is:
+## MO-1 — Measurement accuracy
 
--   Mean absolute percentage error (MAPE) no greater than **5.0%**
-    across evaluated width and height measurements.
--   Report width and height separately as well as the combined result.
--   Report per-instance absolute error in millimetres and percentage
-    error, MAE, median absolute error and worst-case error.
+**What is measured**
 
-For a measurement (p_i) and calliper ground truth (g_i):
+Absolute and percentage differences between the system's estimated casing dimensions and the ruler-measured dimensions.
 
-Absolute error (mm) = |prediction - ground truth|
+**Method**
 
-Absolute percentage error (%) =
-    (absolute error / ground truth) × 100
+The measurement evaluation script runs the inference pipeline on the committed eligible test images. It compares each successful system result against the casing ground truth of 78.0 mm × 160.2 mm.
 
-MAE (mm) =
-    sum of absolute errors / number of measurements
+**Ground truth**
 
-MAPE (%) =
-    sum of absolute percentage errors / number of measurements
+| Dimension | Ground truth |
+|---|---:|
+| Width | 78.0 mm |
+| Height | 160.2 mm |
 
-The 5.0% value is a proposed acceptance target, not a result and not a
-value stated by the assessment. Ground-truth measurements must be taken
-with callipers and recorded with units, tool and date. Do not substitute
-the preliminary user-reported casing dimensions for per-instance ground
-truth.
+**Results**
 
-## MO-2 --- End-to-end inference performance
+Nine of the ten eligible test images produced a measurement. `img_068.jpg` was rejected because the detected reference-card geometry had an implausible aspect ratio of 1.962.
 
-On the documented development machine, measure end-to-end CPU inference
-time for five runs on the same representative image, including image
-loading, undistortion, segmentation, reference detection and
-measurement, but excluding one-time model loading. The proposed target
-is:
+| Image | Measured width (mm) | Absolute width error (mm) | Measured height (mm) | Absolute height error (mm) |
+|---|---:|---:|---:|---:|
+| img_062.jpg | 79.27 | 1.27 | 166.61 | 6.41 |
+| img_033.jpg | 89.64 | 11.64 | 155.89 | 4.31 |
+| img_030.jpg | 104.73 | 26.73 | 157.72 | 2.48 |
+| img_094.jpg | 58.44 | 19.56 | 145.85 | 14.35 |
+| img_127.jpg | 100.69 | 22.69 | 178.60 | 18.40 |
+| img_092.jpg | 52.73 | 25.27 | 146.17 | 14.03 |
+| img_035.jpg | 98.62 | 20.62 | 172.77 | 12.57 |
+| img_024.jpg | 84.31 | 6.31 | 174.58 | 14.38 |
+| img_089.jpg | 74.01 | 3.99 | 155.58 | 4.62 |
 
--   Median end-to-end processing time no greater than **5.0 seconds per
-    image**.
--   Report all five timings, median, minimum and maximum, along with
-    CPU, RAM, OS, image resolution and software versions.
+**Aggregate results — successful measurements only**
 
-The 5.0-second value is a proposed engineering target, not a measured
-result or an assessment-specified threshold. If the final implementation
-cannot meet it, report the measured result honestly and explain the
-bottleneck.
+| Metric | Width | Height |
+|---|---:|---:|
+| Mean absolute error (MAE) | 15.3422 mm | 10.1722 mm |
+| Median absolute error | 19.56 mm | 12.57 mm |
+| Worst absolute error | 26.73 mm | 18.40 mm |
+| Mean absolute percentage error (MAPE) | 19.6695% | 6.3497% |
 
-## Supporting model-quality measures
+**Interpretation**
 
-Report on the held-out test set:
+The measurement pipeline executes, but its metric accuracy is not yet satisfactory. Width estimates show particularly large errors. High segmentation confidence does not guarantee correct metric scale or reference geometry.
 
--   Binary mask IoU.
--   Precision and recall.
--   mAP@0.5 and mAP@0.5:0.95.
+These measurements are repeated photographs of one physical casing, not measurements of ten independent physical objects. The evaluation therefore does not establish generalization across different casings.
 
-Because the selected model is semantic binary segmentation, document
-exactly how predicted masks are converted to instances/boxes for mAP.
-Use the same evaluation protocol consistently for all reported results.
-Do not present an undefined mAP number.
+The required target value for MO-1 was not preserved in the established results. Consequently, target attainment is not claimed.
 
-## Evaluation integrity
+## MO-2 — Segmentation quality
 
--   Freeze and commit the train, validation and test file lists before
-    training.
--   Use validation data for model selection and threshold selection
-    only.
--   Keep the test split isolated until the final evaluation.
--   Report sample counts and exclusions; do not silently omit failed
-    cases.
--   Report abstention coverage and refusal rate alongside accuracy so
-    that accuracy cannot be improved merely by refusing difficult
-    images.
--   All reported numbers must be generated from saved machine-readable
-    outputs or documented measurement records. Clearly label targets,
-    measured results and illustrative examples.
+**What is measured**
+
+Mask overlap and pixel-level classification performance on the held-out eligible test split.
+
+**Method**
+
+The trained U-Net checkpoint was evaluated on the ten images in the eligible test split. The test split was not used for training or checkpoint selection.
+
+**Results**
+
+| Metric | Test result |
+|---|---:|
+| Mean mask IoU | 0.9582 |
+| mAP@0.5 | 1.0000 |
+| mAP@0.5:0.95 | 0.9523 |
+| Pixel precision | 0.9687 |
+| Pixel recall | 0.9914 |
+
+The mAP values use the project's custom single-object segmentation evaluation protocol. They should not be interpreted as COCO benchmark results.
+
+**Training information**
+
+- Architecture: Custom U-Net
+- Trainable parameters: 1,942,577
+- Input resolution: 384 × 288
+- Training images: 64
+- Validation images: 19
+- Test images: 10
+- Best validation IoU: 0.9629 at epoch 12
+- Early stopping: training stopped after epoch 17
+
+## Calibration objective evidence
+
+- Calibration images detected: 26 of 27
+- OpenCV RMS reprojection error: 4.3883195 px
+- Mean per-image reprojection RMS: 4.219738 px
+- Calibration parameters saved in `calibration/camera_calibration.npz`
+
+The reprojection error is relatively high and is an important limitation of the measurement system.
+
+## Objectives not evaluated
+
+The following objectives remain incomplete:
+
+1. Raw-image versus undistorted-image measurement-error comparison.
+2. A separately defined and measured speed or accuracy target.
+3. Error measurement under a selected breaking condition.
+4. A complete refusal-threshold and refusal-cost evaluation.
+
+No results are claimed for these objectives.
